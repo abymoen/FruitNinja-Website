@@ -1,0 +1,101 @@
+
+#cont {
+    height: 98.4vh;
+    width: 100%;
+    background-color: #83bdf0;
+    overflow: hidden;
+}
+
+#gameboard {
+    overflow: hidden;
+    background-color: #FFFFFF;
+    height: 70%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    box-shadow: 4px 4px 20px 0px #595d5d;
+    position: relative;
+    cursor: url(images/bigknife.png), auto;
+}
+
+#catchbutton {
+    width: 40%;
+    height: 5%;
+    margin: 1% auto;
+    text-align: center;
+    background-color:#8a7bca;
+    box-shadow: 3px 2px 0px 1px #6757b1;
+}
+
+#cf {
+    padding-top: 2.5%;
+}
+
+#startbutton {
+    width: 20%;
+    height: 5%;
+    margin: 1% auto;
+    background-color: #61c17f;
+    box-shadow: 2px 2px 0px 0px #27904a;
+}
+
+#start {
+    text-align: center;
+    padding-top: 4%;
+}
+
+#scorebox {
+    width:12%;
+    height: 10%;
+    margin-left: 85%;
+    text-align: center;
+    background-color: #73c5f1;
+    box-shadow: 2px 2px 0px 0px #218bc4;
+}
+
+#score {
+    padding-top: 13%;
+    font-weight: bold;
+}
+
+#gameover {
+    width: 70%;
+    height: 30%;
+    margin: 5% auto;
+    text-align: center;
+    -webkit-background: linear-gradient(#dae113, #ddb01c);
+    -o-background: linear-gradient(#dae113, #ddb01c);
+    -moz-background: linear-gradient(#dae113, #ddb01c);
+    background: linear-gradient(#dae113, #ddb01c);
+    padding-top: 4%;
+    font-size: 150%;
+    visibility: hidden;
+    
+}
+
+#lives {
+    width: 30%;
+    height: 10%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 3%;
+    background-color:#f8fbc0;
+    border-radius: 9%;
+    box-shadow: 0px 2px 0px 0px #727272;
+    visibility: hidden;
+}
+
+.life {
+    margin: 5% 5%;
+    padding-left: 5%;
+    height: 50%;
+}
+
+.fruit {
+    display: none;
+    position: absolute;
+}
+
+#fruit1 {
+    
+}

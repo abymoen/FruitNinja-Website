@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=yes">
+        <link rel="stylesheet" href="style.css">
+        
+        <title>Fruit Ninja</title>
+    </head>
+    <body>
+        <div id="cont">
+            
+            <div id="gameboard">
+                
+                <div id="lives">
+                </div>
+                
+                <div id="scorebox">
+                    <p id="score">Score:
+                    <span id="scorevalue" class="scorer">0</span></p>
+                </div>
+                
+                
+                <div id="gameover">
+                    <p>GAME OVER!</p>
+                    <p>YOUR SCORE IS <span class="scorer"></span>.</p>
+                </div>
+                <img id="fruit1" class="fruit">
+            </div>
+            
+            <div id="catchbutton">
+                <p id="cf">Catch Fruit</p>
+            </div>
+            
+            <div id="startbutton">
+                <p id="start">Start</p>
+            </div>
+        </div>
+        
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        
+        <script src="jquery.js"></script>
+        
+        
+        
+        <audio id="slicesound" src="audio/slice.mp3"> 
+        </audio>
+    </body>
+</html>
